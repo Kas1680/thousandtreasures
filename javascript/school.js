@@ -1,7 +1,4 @@
 const boxData = [
-
-
-  
   { link: "../index.html", text: "Go Back" },
   { link: "https://www.sfu.ca/sfumail.html", text: "SFU Mail" },
   { link: "../src/sch.jpg", text: "mySchedule" }
