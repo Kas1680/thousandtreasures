@@ -7,9 +7,9 @@ const boxData = [
     { link: "html/other.html", text: "Other" }
 ];
   
-const baseURL = window.location.hostname === 'http://127.0.0.1:5500/' ?
-                 '' :
-                 'https://kas1680.github.io/thousandtreasures.io/';
+const baseURL = 'https://kas1680.github.io/thousandtreasures.io/';
+              
+                 
 
   const boxContainer = document.getElementById("boxContainer");
   
