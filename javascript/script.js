@@ -8,23 +8,21 @@ const boxData = [
 ];
   
 const baseURL = 'https://kas1680.github.io/thousandtreasures.io/';
-              
-                 
 
-  const boxContainer = document.getElementById("boxContainer");
+const boxContainer = document.getElementById("boxContainer");
+
+boxData.forEach(item => {
+  const box = document.createElement("a");
+  box.href = baseURL + item.link;
+  box.className = "box";
+
+  const boxContent = document.createElement("div");
+  boxContent.className = "box-content";
+  boxContent.textContent = item.text;
   
-  boxData.forEach(item => {
-    const box = document.createElement("a");
-    box.href = baseURL + item.link;
-    box.className = "box";
-
-    const boxContent = document.createElement("div");
-    boxContent.className = "box-content";
-    boxContent.textContent = item.text;
-    
-    box.appendChild(boxContent);
-    boxContainer.appendChild(box);
-  });
+  box.appendChild(boxContent);
+  boxContainer.appendChild(box);
+});
 
 
 
