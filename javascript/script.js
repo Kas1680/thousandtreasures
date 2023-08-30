@@ -31,7 +31,7 @@ const boxData = [
     boxContainer.appendChild(box);
   });
 
-const baseUrl = window.location.href.includes('localhost') ?
+const baseUrl = window.location.href.includes('5500') ?
   '' : 'https://kas1680.github.io/thousandtreasures.io/';
 
 document.write('<base href="' + baseUrl + '">');
