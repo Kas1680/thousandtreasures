@@ -1,17 +1,21 @@
 const boxData = [
 
     // { link: "", text: "" }
-    { link: "../html/gadget.html", text: "Gadgets" },
-    { link: "../html/school.html", text: "School" },
-    { link: "../html/career.html", text: "Career" },
-    { link: "../html/other.html", text: "Other" }
+    { link: "html/gadget.html", text: "Gadgets" },
+    { link: "html/school.html", text: "School" },
+    { link: "html/career.html", text: "Career" },
+    { link: "html/other.html", text: "Other" }
 ];
   
+const baseURL = window.location.hostname === 'http://127.0.0.1:5500/' ?
+                 '' :
+                 'https://kas1680.github.io/thousandtreasures.io/';
+
   const boxContainer = document.getElementById("boxContainer");
   
   boxData.forEach(item => {
     const box = document.createElement("a");
-    box.href = item.link;
+    box.href = baseURL + item.link;
     box.className = "box";
 
     const boxContent = document.createElement("div");
@@ -21,8 +25,6 @@ const boxData = [
     box.appendChild(boxContent);
     boxContainer.appendChild(box);
   });
-// const baseUrl = window.location.href.includes('5500') ?
-//    'https://kas1680.github.io/thousandtreasures.io/' : '' ;
 
 
 
