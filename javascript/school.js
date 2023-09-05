@@ -1,7 +1,10 @@
 const boxData = [
   { link: "../index.html", text: "Go Back" },
   { link: "https://www.sfu.ca/sfumail.html", text: "SFU Mail" },
-  { link: "../src/sch.jpg", text: "mySchedule" }
+  { link: "../src/sch.jpg", text: "mySchedule" },
+  { link: "https://sims.erp.sfu.ca/psc/csprd/EMPLOYEE/SA/s/WEBLIB_SFU.ISCRIPT1.FieldFormula.IScript_CASSignin?&", text: "goSFU" },
+  { link: "https://canvas.sfu.ca/", text: "Canvas" },
+  { link: "", text: "" }
   // { link: "", text: "" }
 ];
 
