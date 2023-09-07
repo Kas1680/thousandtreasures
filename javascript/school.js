@@ -4,8 +4,8 @@ const boxData = [
   { link: "../src/sch.jpg", text: "mySchedule" },
   { link: "https://sims.erp.sfu.ca/psc/csprd/EMPLOYEE/SA/s/WEBLIB_SFU.ISCRIPT1.FieldFormula.IScript_CASSignin?&", text: "goSFU" },
   { link: "https://canvas.sfu.ca/", text: "Canvas" },
-  { link: "https://cas.sfu.ca/cas/login?message=Welcome+to+SFU+myExperience.%20Please+login+with+your+SFU+computing+ID.&allow=student,alumni&renew=true&service=https://myexperience.sfu.ca/sfuLogin.htm%3Faction%3Dlogin&_gl=1*19tkdw1*_ga*ODQ0NDI1OTQ1LjE2NjkxNDUzMjg.*_ga_R4BCVYL1QF*MTY5MzkzODM0MS4yNTMuMS4xNjkzOTM4MzQzLjU4LjAuMA..", text: "myExperience" }
-  ,{ link: "https://www.cs.sfu.ca/~miltner/courses/current/", text: "CMPT383" }
+  { link: "https://cas.sfu.ca/cas/login?message=Welcome+to+SFU+myExperience.%20Please+login+with+your+SFU+computing+ID.&allow=student,alumni&renew=true&service=https://myexperience.sfu.ca/sfuLogin.htm%3Faction%3Dlogin&_gl=1*19tkdw1*_ga*ODQ0NDI1OTQ1LjE2NjkxNDUzMjg.*_ga_R4BCVYL1QF*MTY5MzkzODM0MS4yNTMuMS4xNjkzOTM4MzQzLjU4LjAuMA..", text: "myExperience" },
+  { link: "https://www.cs.sfu.ca/~miltner/courses/current/", text: "CMPT383" }
   // { link: "", text: "" }
 ];
 
