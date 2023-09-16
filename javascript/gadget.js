@@ -11,7 +11,10 @@ const boxData = [
     { link: "https://blank.page/", text: "Blank Page" },
     { link: "https://mail.google.com/", text: "GMail" },
     { link: "https://github.com/", text: "Github" },
-    { link: "https://www.toptal.com/project-managers/tomato-timer", text: "Pomodoro" }
+    { link: "https://www.toptal.com/project-managers/tomato-timer", text: "Pomodoro" },
+    { link: "https://www.cantoneseinput.com/", text: "Canto" },
+    { link: "", text: "" }
+
 ];
   
 
